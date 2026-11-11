@@ -1,0 +1,17 @@
+{
+  "name": "petstore-api-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright API tests for Swagger Petstore (POST /pet, GET /pet/findByStatus, DELETE /pet/{petId})",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed-report": "playwright test && playwright show-report",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
